@@ -3,7 +3,12 @@
 }
 
 header{
-    background-color: black;
+    background-image: url(/headerback.jpg);
+    background-repeat: round;
+    min-height: 106px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 header div{
