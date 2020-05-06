@@ -13,4 +13,4 @@ Leipzigerstr. 16
 
 **Telefon:** +49 (0)2602 178 05  
 **Fax:** +49 (0)2602 177 71  
-**EMail:**[info@bellessem.de](mailto:info@bellessem.de)
+**EMail:** [info@bellessem.de](mailto:info@bellessem.de)
