@@ -79,3 +79,15 @@ nav{
 .nav>li>a {
     padding: 0px;
 }
+
+.menuRed{
+    background-color: red;
+}
+
+.menuOrange{
+    background-color: orange;
+}
+
+.menuYellow{
+    background-color: yellow;
+}

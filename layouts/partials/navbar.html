@@ -9,18 +9,42 @@
   </div>
   <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
+
+      {{ .Scratch.Set "i" 0 }}
+      {{ .Scratch.Set "classString" "" }}
+
       {{ range .Site.Menus.mainmenu}}
-      {{ if .HasChildren }}
-      <li><a data-toggle="collapse" href='#{{ .Name }}'>{{.Title}}<span class="caret"></span></a></li>
-      <ul id='{{ .Name }}' class="collapse">
-        {{ range .Children }}
-        <li><a href="{{.URL}}">{{ .Title }}</a></li>
-        {{ end }}
-      </ul>
-      {{ else}}
-      <li><a class="" href="{{.URL}}">{{ .Title}}</a></li>
+
+      <!-- -->
+      {{ with .Page }}
+      {{ .Scratch.Set "classString" ""}}
+      {{ if (eq ($.Scratch.Get "i") 8)}} 
+      {{ .Scratch.Set "i" 0 }}
+      {{ end }}
+      {{ if (lt ($.Scratch.Get "i") 3)}}
+          {{ .Scratch.Set "classString" (print (.Scratch.Get "classString") "menuRed")}}
+      {{ end }}
+      {{if and (lt ($.Scratch.Get "i") 6) (ge ($.Scratch.Get "i") 3)}}
+              {{ .Scratch.Set "classString" (print (.Scratch.Get "classString") "menuOrange")}}
+      {{ end }}
+
+      {{if and (lt ($.Scratch.Get "i") 8) (ge ($.Scratch.Get "i") 6)}}
+              {{ .Scratch.Set "classString" (print (.Scratch.Get "classString") "menuYellow")}}
+      {{ end }}
+      {{ $.Scratch.Set "i" (add ($.Scratch.Get "i") 1) }}
+      <!--  -->
+      <li><a class='{{ .Scratch.Get "classString" }}' href="{{.URL}}">{{ .Title}}</a></li>
       {{ end }}
       {{ end }}
+
+
+
+      
+
+          
+          
+
+              <!--<div class='{{ print "col-md-4 col-sm-6" }}'>-->
 
   </div>
 </nav>
