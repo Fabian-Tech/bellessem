@@ -6,7 +6,7 @@ name = "UeberUns"
 weight = 2
 
 +++
-![](http://www.bellessem.dnns.de/Portals/4/bellesseminternet.JPG =178x245)
+![](/bellesseminternet.JPG)
 
 ## **Unternehmensberatung**  
  **Reinhard Bellessem**

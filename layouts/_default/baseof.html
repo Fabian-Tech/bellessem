@@ -30,16 +30,16 @@
 
 <body>
 
-    <div>
+    
         {{partial "header" . }}
-
+        <div class="container-fluid">
         <div class="row">
 
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-3">
 
                 {{partial "navbar" . }}
             </div>
-            <div class="col-md-10">
+            <div class="col-md-10 col-sm-9 content">
                 {{ block "main" . }}
                 <!-- The part of the page that begins to differ between templates -->
                 {{ end }}

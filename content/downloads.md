@@ -5,4 +5,10 @@ title = "Downloads"
 weight = 8
 
 +++
-BezeichnungBesitzerKategorieZuletzt aktualisiert amGröße (KB) [Dieseleinsparung](http://www.bellessem.dnns.de/LinkClick.aspx?link=Kopie+von+Einsparung+Dieselverbrauch+bei+1+%e2%82%ac.xls&tabid=139&mid=463&language=de-DE)Reinhard Bellessem 05.04.201936,86[Download](javascript:__doPostBack('dnn$ctr463$Document$grdDocuments$ctl02$lnkDownload',''))[Finanzplan dynamisch](http://www.bellessem.dnns.de/LinkClick.aspx?link=Templates%2fFinanzplan+dynamisch++Vorlage-1.xls&tabid=139&mid=463&language=de-DE)Reinhard Bellessem 18.04.201238,40[Download](javascript:__doPostBack('dnn$ctr463$Document$grdDocuments$ctl03$lnkDownload',''))[kaufen, leasen oder mieten](http://www.bellessem.dnns.de/LinkClick.aspx?link=aschermittwoch_otto.jpg&tabid=139&mid=463&language=de-DE)Reinhard Bellessem 05.04.201941,99[Download](javascript:__doPostBack('dnn$ctr463$Document$grdDocuments$ctl04$lnkDownload',''))[Kostenrechnung Planensattel Jan 19](http://www.bellessem.dnns.de/LinkClick.aspx?link=Kore+Planensattel+Jan+19.pdf&tabid=139&mid=463&language=de-DE)Reinhard Bellessem 05.04.2019110,76[Download](javascript:__doPostBack('dnn$ctr463$Document$grdDocuments$ctl05$lnkDownload',''))[Maut ab Jan 19 nach Gewichtsklassen](http://www.bellessem.dnns.de/LinkClick.aspx?link=Maut+ab+Jan+19+nach+Gewichtsklassen.pdf&tabid=139&mid=463&language=de-DE)Reinhard Bellessem 05.04.2019277,30[Download](javascript:__doPostBack('dnn$ctr463$Document$grdDocuments$ctl06$lnkDownload',''))[Ratingnoten](http://www.bellessem.dnns.de/LinkClick.aspx?link=Ratingnoten.pdf&tabid=139&mid=463&language=de-DE)Reinhard Bellessem 07.01.2015291,31[Download](javascript:__doPostBack('dnn$ctr463$Document$grdDocuments$ctl07$lnkDownload',''))
+Bezeichnung	Besitzer	Kategorie	Zuletzt aktualisiert am	Größe (KB)	 
+Dieseleinsparung	Reinhard Bellessem	 	05.04.2019	36,86	Download
+Finanzplan dynamisch	Reinhard Bellessem	 	18.04.2012	38,40	Download
+kaufen, leasen oder mieten	Reinhard Bellessem	 	05.04.2019	41,99	Download
+Kostenrechnung Planensattel Jan 19	Reinhard Bellessem	 	05.04.2019	110,76	Download
+Maut ab Jan 19 nach Gewichtsklassen	Reinhard Bellessem	 	05.04.2019	277,30	Download
+Ratingnoten	Reinhard Bellessem	 	07.01.2015	291,31	Download
