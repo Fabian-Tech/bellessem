@@ -12,13 +12,36 @@ header{
     padding: 0px;
 }
 
+header div{
+    clear:both;
+}
+
+.header-navigation>li>a{
+        font-weight: bold;
+        font-size: 10px;
+        cursor: hand;
+        color: white !important;
+        font-family: "Verdana" , Arial, Helvetica;
+        margin: 0px 5px;
+}
+
+
+.header-navigation>li{
+    float: left;
+}
+
 .header-right{
     position: absolute;
     right: 5px;
-    top: 5px;
+    top: 25px;
+}
+@media only screen and (max-width:1199px){
+    .header-right{
+        top: 5px;
+    }
 }
 
-header div{
+.header-right>div{
     clear:right;
 }
 
@@ -30,12 +53,12 @@ header p{
     MARGIN:0PX;
 }
 header .pStyle2{
-FONT-WEIGHT: bold;
-FONT-SIZE: 10pt;
-COLOR: gainsboro;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: gainsboro;
 }
 
-header a{
+.header-right a{
     float: right;
     FONT-SIZE: 8pt;
     COLOR: #ffcc66;
