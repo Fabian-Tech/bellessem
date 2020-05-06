@@ -1,6 +1,7 @@
 ---
 title: Startseite
-
+menu.mainmenu:
+  name: Startseite
 ---
 **Willkommen bei der Branchenberatung Bellessem.de**
 
