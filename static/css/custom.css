@@ -44,10 +44,15 @@ header a{
 }
 
 nav{
+    padding-top: 25px;
     background-color: #d8d8d8af;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.45);
     position: relative;
-    top: -15px;
+    top: -20px;
+}
+
+.navbar-nav {
+    float:none;
 }
 
 .nav a {
@@ -61,4 +66,16 @@ nav{
     padding-bottom: 0px;
     line-height: 20px;
     vertical-align: top;
+}
+
+.nav li {
+    padding-bottom: 0px;
+    margin: 0px;
+    display: block;
+    line-height: 23px;
+    height: 23px;
+}
+
+.nav>li>a {
+    padding: 0px;
 }
