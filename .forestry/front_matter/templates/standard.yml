@@ -7,4 +7,5 @@ fields:
   label: title
 pages:
 - content/aktuelles.md
+- content/beratung.md
 - content/über-uns.md
