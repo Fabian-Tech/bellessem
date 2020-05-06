@@ -2,7 +2,7 @@
 draft = true
 title = "Partner"
 [menu.mainmenu]
-weight = 8
+weight = 9
 
 +++
 **Boris Breidenstein, KMU Mittelstandsberatung**
