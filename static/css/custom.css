@@ -56,6 +56,11 @@ nav{
     position: relative;
     top: -20px;
 }
+@media only screen and (max-width:767px){
+    nav{
+        top: -10px;
+    }
+}
 
 .navbar-nav {
     float:none;
@@ -63,7 +68,7 @@ nav{
 
 .nav a {
     font-weight: bold;
-    font-size: 11px;
+    font-size: 13px;
     cursor: hand;
     color: black;
     font-family: "Verdana" , Arial, Helvetica;
@@ -78,24 +83,42 @@ nav{
     padding-bottom: 0px;
     margin: 5px 0px;
     display: block;
-    line-height: 23px;
-    height: 23px;
+    line-height: 28px;
+    height: 28px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
 }
 
 .nav>li>a {
     padding: 0px;
     text-indent: 5px;
+    line-height: 28px;
+}
+.nav>li>a:hover {
+    color: white;
+    text-decoration-line: underline;
 }
 
 .menuRed{
-    background-color: #c90304;
+    background-color: #c90304 !important;
+}
+.menuRed>a{
+    background-color: #c90304 !important;
 }
 
 .menuOrange{
-    background-color: #f89601;
+    background-color: #f89601 !important;
+}
+.menuOrange>a{
+    background-color: #f89601 !important;
 }
 
 .menuYellow{
-    background-color: #ffe300;
+    background-color: #ffe300 !important;
 }
+.menuYellow>a{
+    background-color: #ffe300 !important;
+}
+
+.icon-bar {
+    background-color:black !important;
+ }
