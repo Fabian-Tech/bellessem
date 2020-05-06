@@ -2,6 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 [[menu.mainmenu]]
+URL = "/admin"
 name = "Anmelden"
 title = "Anmelden"
-URL = "/admin"
+weight = 7
