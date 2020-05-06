@@ -16,35 +16,27 @@
       {{ range .Site.Menus.mainmenu}}
 
       <!-- -->
-      {{ with .Page }}
-      {{ .Scratch.Set "classString" ""}}
-      {{ if (eq ($.Scratch.Get "i") 8)}} 
-      {{ .Scratch.Set "i" 0 }}
+      {{ if or (eq ($.Scratch.Get "i") 8) (eq ($.Scratch.Get "i") 0)}} 
+      {{ if (eq ($.Scratch.Get "i") 8)}}<br>{{ end }}
+      {{ $.Scratch.Set "i" 0 }}
+      {{ $.Scratch.Set "classString" "menuRed"}}
       {{ end }}
-      {{ if (lt ($.Scratch.Get "i") 3)}}
-          {{ .Scratch.Set "classString" (print (.Scratch.Get "classString") "menuRed")}}
-      {{ end }}
-      {{if and (lt ($.Scratch.Get "i") 6) (ge ($.Scratch.Get "i") 3)}}
-              {{ .Scratch.Set "classString" (print (.Scratch.Get "classString") "menuOrange")}}
+      
+
+      {{if (eq ($.Scratch.Get "i") 3)}}
+        {{ $.Scratch.Set "classString" "menuOrange"}}
+        <br>
       {{ end }}
 
-      {{if and (lt ($.Scratch.Get "i") 8) (ge ($.Scratch.Get "i") 6)}}
-              {{ .Scratch.Set "classString" (print (.Scratch.Get "classString") "menuYellow")}}
+      {{if eq ($.Scratch.Get "i") 6}}
+        {{ $.Scratch.Set "classString" "menuYellow"}}
+        <br>
       {{ end }}
       {{ $.Scratch.Set "i" (add ($.Scratch.Get "i") 1) }}
       <!--  -->
-      <li><a class='{{ .Scratch.Get "classString" }}' href="{{.URL}}">{{ .Title}}</a></li>
+      <li class='{{ $.Scratch.Get "classString" }}'><a href="{{.URL}}">{{ .Title}}</a></li>
       {{ end }}
-      {{ end }}
 
-
-
-      
-
-          
-          
-
-              <!--<div class='{{ print "col-md-4 col-sm-6" }}'>-->
 
   </div>
 </nav>

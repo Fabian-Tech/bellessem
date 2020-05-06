@@ -12,6 +12,12 @@ header{
     padding: 0px;
 }
 
+.header-right{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
 header div{
     clear:right;
 }
@@ -70,24 +76,26 @@ nav{
 
 .nav li {
     padding-bottom: 0px;
-    margin: 0px;
+    margin: 5px 0px;
     display: block;
     line-height: 23px;
     height: 23px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.45);
 }
 
 .nav>li>a {
     padding: 0px;
+    text-indent: 5px;
 }
 
 .menuRed{
-    background-color: red;
+    background-color: #c90304;
 }
 
 .menuOrange{
-    background-color: orange;
+    background-color: #f89601;
 }
 
 .menuYellow{
-    background-color: yellow;
+    background-color: #ffe300;
 }
