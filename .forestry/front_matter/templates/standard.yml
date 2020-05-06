@@ -6,4 +6,5 @@ fields:
   name: title
   label: title
 pages:
+- content/aktuelles.md
 - content/über-uns.md
