@@ -12,12 +12,12 @@
       {{ range .Site.Menus.mainmenu}}
       {{ if .HasChildren }}
       <li><a data-toggle="collapse" href='#{{ .Name }}'>{{.Title}}<span class="caret"></span></a></li>
-        <ul id='{{ .Name }}' class="collapse">
-          {{ range .Children }}
-          <li><a href="{{.URL}}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-        {{ else}}
+      <ul id='{{ .Name }}' class="collapse">
+        {{ range .Children }}
+        <li><a href="{{.URL}}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+      {{ else}}
       <li><a class="" href="{{.URL}}">{{ .Title}}</a></li>
       {{ end }}
       {{ end }}

@@ -1,6 +1,8 @@
 +++
 draft = true
 title = "Kontakt"
+[menu.mainmenu]
+name = "Kontakt"
 
 +++
 **Kontakt**

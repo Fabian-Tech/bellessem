@@ -1,6 +1,8 @@
 +++
 draft = true
 title = "Beratung"
+[menu.mainmenu]
+name = "Beratung"
 
 +++
 ## Branchenberatung für das Transport- und Speditionsgewerbe

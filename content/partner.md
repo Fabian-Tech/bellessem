@@ -1,6 +1,8 @@
 +++
 draft = true
 title = "Partner"
+[menu.mainmenu]
+name = "Partner"
 
 +++
 **Boris Breidenstein, KMU Mittelstandsberatung**

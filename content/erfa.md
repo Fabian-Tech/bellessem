@@ -1,6 +1,8 @@
 +++
 draft = true
 title = "Erfa"
+[menu.mainmenu]
+name = "Erfa"
 
 +++
 Erfahrungsaustauschgruppen = Erfa

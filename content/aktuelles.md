@@ -1,7 +1,8 @@
 +++
 draft = true
 title = "Aktuelles"
-
+[menu.mainmenu]
+name = "Aktuelles"
 +++
 **Seminare 2020:**
 

@@ -1,6 +1,8 @@
 +++
 draft = true
 title = "Seminare"
+[menu.mainmenu]
+name = "Seminare"
 
 +++
 siehe auch Aktuelles
