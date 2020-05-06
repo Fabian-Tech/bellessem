@@ -2,7 +2,8 @@
 title: Startseite
 menu:
   mainmenu:
-    name: Startseite
+    weight: 1
+
 ---
 **Willkommen bei der Branchenberatung Bellessem.de**
 

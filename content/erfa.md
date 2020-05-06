@@ -2,7 +2,7 @@
 draft = true
 title = "Erfa"
 [menu.mainmenu]
-name = "Erfa"
+weight = 5
 
 +++
 Erfahrungsaustauschgruppen = Erfa

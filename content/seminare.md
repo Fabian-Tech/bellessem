@@ -2,7 +2,7 @@
 draft = true
 title = "Seminare"
 [menu.mainmenu]
-name = "Seminare"
+weight = 6
 
 +++
 siehe auch Aktuelles
@@ -63,4 +63,4 @@ Daher gilt es, die Qualifikation der Disponenten zu steigern.
 * Argumente zur Preisanpassung
 * Einwände und deren Entkräftung
 * Techniken zur Preisanpassung, positive Preisgespräche,
-* Preis - Gleitklausel 
+* Preis - Gleitklausel

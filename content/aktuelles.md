@@ -2,7 +2,8 @@
 draft = true
 title = "Aktuelles"
 [menu.mainmenu]
-name = "Aktuelles"
+weight = 3
+
 +++
 **Seminare 2020:**
 

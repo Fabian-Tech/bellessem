@@ -2,6 +2,7 @@
 draft = true
 title = "Kontakt"
 [menu.mainmenu]
+weight = 9
 
 +++
 **Kontakt**
