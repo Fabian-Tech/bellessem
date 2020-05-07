@@ -1,12 +1,11 @@
 ---
-title: Startseite
+title: Willkommen bei der Branchenberatung Bellessem.de
 menu:
   mainmenu:
     weight: 1
+    title: Startseite
 
 ---
-**Willkommen bei der Branchenberatung Bellessem.de**
-
 Wir bieten ein Leistungsangebot mit 3 Schwerpunkten
 
 ## 1. Beratung für das Transport- und Speditionsgewerbe
