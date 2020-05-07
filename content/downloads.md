@@ -6,6 +6,12 @@ type = "special/downloads"
 weight = 8
 [[downloads]]
 category = ""
+description = "Ratingnoten"
+file = "/Ratingnoten-1.pdf"
+lastUpdated = "07.01.2015"
+owner = ""
+[[downloads]]
+category = ""
 description = "Maut ab Jan 19 nach Gewichtsklassen\t"
 file = "/Maut ab Jan 19 nach Gewichtsklassen-1.pdf"
 lastUpdated = "05.04.2019"
