@@ -1,5 +1,4 @@
 +++
-draft = true
 title = "Downloads"
 type = "special/downloads"
 [menu.mainmenu]
