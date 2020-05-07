@@ -191,5 +191,15 @@ nav{
 }
 
 .tableDownloads>div>div{
-    border: solid 1px rgb(87, 87, 87) !important;
+    border: solid  1px rgb(87, 87, 87) !important;
+    /*border-left: solid  1px rgb(87, 87, 87) !important;*/
+    margin-left: -1px;
+    margin-top: -1px;
+    height: 40px;
 }
+
+/*.tableDownloads>div{
+    border-bottom: solid  1px rgb(87, 87, 87) !important;
+    border-top: solid  1px rgb(87, 87, 87) !important;
+    margin-bottom: -1px;
+}*/
