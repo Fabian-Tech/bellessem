@@ -145,3 +145,15 @@ nav{
 .icon-bar {
     background-color:black !important;
  }
+
+ .content-heading{
+    font-family: "Verdana", Arial, Helvetica;
+    font-weight: bold;
+    font-size: 13pt;
+    margin: 5px 0px 10px;
+    color: black;
+    border-bottom: 1px solid;
+    text-decoration: underline;
+    font-style: normal;
+    text-align: left;
+ }
