@@ -23,15 +23,10 @@ fields:
     label: Kategorie
     hidden: true
   - name: lastUpdated
-    type: datetime
-    label: Zuletzt aktualisiert
-    description: ''
+    type: text
     config:
       required: false
-      date_format: 
-      time_format: 
-      display_utc: false
-    default: now
+    label: Zuletzt aktualisiert
   - name: file
     type: file
     config:
