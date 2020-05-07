@@ -1,8 +1,27 @@
 {{ define "main" }}
 <div class="content-heading">
     <span>{{ .Title }}</span>
+</div>
+<div class="tableDownloads">
+    <div class="row">
+        <div class="col-sm-3 col-lg-2 col-xs-4">Bezeichnung</div>
+        <div class="col-sm-3 col-lg-2 hidden-xs">Besitzer</div>
+        <div class="col-sm-3 col-lg-2 col-xs-4">Zuletzt aktualisiert</div>
+        <div class="col-sm-3 col-lg-2 col-xs-4">Download</div>
     </div>
-<div>{{ .Content }}</div>
-
-
+    {{ range .Param "downloads"}}
+    <div class="row">
+        <div class="col-sm-3 col-lg-2 col-xs-4">{{ .description }}</div>
+        <div class="col-sm-3 col-lg-2 hidden-xs">
+            {{ if (eq .owner "")}}
+            Reinhard Bellessem
+            {{ else }}
+            {{ .owner }}
+            {{ end }}
+        </div>
+        <div class="col-sm-3 col-lg-2 col-xs-4">{{ .lastUpdated }}</div>
+        <div class="col-sm-3 col-lg-2 col-xs-4"><a href="{{ .file }}">Download</a></div>
+    </div>
+    {{ end }}
+</div>
 {{ end }}

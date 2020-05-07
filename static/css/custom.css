@@ -189,3 +189,7 @@ nav{
     margin: 2px;
     font-size: 13px
 }
+
+.tableDownloads>div>div{
+    border: solid 1px rgb(87, 87, 87) !important;
+}
