@@ -3,6 +3,8 @@ draft = true
 title = "Aktuelles"
 [menu.mainmenu]
 weight = 3
+[meta]
+title = "Bellessem Unternehmensberatung - Aktuelles"
 
 +++
 **Seminare 2020:**

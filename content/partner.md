@@ -3,6 +3,8 @@ draft = true
 title = "Partner"
 [menu.mainmenu]
 weight = 9
+[meta]
+title = "Bellessem Unternehmensberatung - Partner"
 
 +++
 ## Boris Breidenstein, KMU Mittelstandsberatung

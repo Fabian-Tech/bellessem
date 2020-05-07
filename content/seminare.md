@@ -3,6 +3,8 @@ draft = true
 title = "Seminare"
 [menu.mainmenu]
 weight = 6
+[meta]
+title = "Bellessem Unternehmensberatung - Seminare"
 
 +++
 siehe auch Aktuelles

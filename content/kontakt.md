@@ -3,6 +3,8 @@ draft = true
 title = "Kontakt"
 [menu.mainmenu]
 weight = 10
+[meta]
+title = "Bellessem Unternehmensberatung - Kontakt"
 
 +++
 **Kontakt**

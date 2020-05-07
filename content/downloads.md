@@ -3,6 +3,8 @@ title = "Downloads"
 type = "special/downloads"
 [menu.mainmenu]
 weight = 8
+[meta]
+title = "Bellessem Unternehmensberatung - Downloads"
 [[downloads]]
 category = ""
 description = "Dieseleinsparung"

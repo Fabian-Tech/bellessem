@@ -63,7 +63,7 @@ header .pStyle2{
     FONT-SIZE: 8pt;
     COLOR: #ffcc66;
     FONT-FAMILY: Verdana;
-    padding: 3px 5px;
+    padding: 0px 5px;
     margin: 5px 5px;
     box-sizing: border-box;
 }
@@ -113,7 +113,7 @@ nav{
 
 .nav>li>a {
     padding: 0px;
-    text-indent: 5px;
+    text-indent: 10px;
     line-height: 28px;
 }
 .nav>li>a:hover {

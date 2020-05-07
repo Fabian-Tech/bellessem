@@ -4,6 +4,8 @@ title = "Über Uns"
 [menu.mainmenu]
 name = "UeberUns"
 weight = 2
+[meta]
+title = "Bellessem Unternehmensberatung - Über Uns"
 
 +++
 ![](/bellesseminternet.JPG)

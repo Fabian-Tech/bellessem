@@ -4,6 +4,8 @@ menu:
   mainmenu:
     weight: 1
     title: Startseite
+meta:
+  title: Bellessem Unternehmensberatung - Startseite
 
 ---
 Wir bieten ein Leistungsangebot mit 3 Schwerpunkten

@@ -3,6 +3,8 @@ draft = true
 title = "Beratung"
 [menu.mainmenu]
 weight = 4
+[meta]
+title = "Bellessem Unternehmensberatung - Beratung"
 
 +++
 ## Branchenberatung für das Transport- und Speditionsgewerbe
