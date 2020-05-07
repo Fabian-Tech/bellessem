@@ -1,9 +1,10 @@
 +++
 draft = true
 title = "Downloads"
+type "special/downloads"
 [menu.mainmenu]
 weight = 8
-[[downloas]]
+[[downloads]]
 category = ""
 description = "Dieseleinsparung"
 file = "/uploads/dieseleinsparung.xls"
