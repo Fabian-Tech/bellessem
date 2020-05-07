@@ -2,7 +2,7 @@
 label: Downloads
 hide_body: true
 fields:
-- name: downloas
+- name: downloads
   type: field_group_list
   fields:
   - name: description
@@ -36,6 +36,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Downloas
+  label: Downloads
 pages:
 - content/downloads.md
