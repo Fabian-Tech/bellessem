@@ -1,4 +1,44 @@
 ---
 label: Downloads
 hide_body: true
-fields: []
+fields:
+- name: downloas
+  type: field_group_list
+  fields:
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Bezeichnung
+  - name: owner
+    type: text
+    config:
+      required: false
+    label: Besitzer
+    hidden: true
+  - name: category
+    type: text
+    config:
+      required: false
+    label: Kategorie
+    hidden: true
+  - name: lastUpdated
+    type: datetime
+    label: Zuletzt aktualisiert
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+    default: now
+  - name: file
+    type: file
+    config:
+      maxSize: 64
+    label: Datei
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Downloas
