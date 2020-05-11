@@ -8,13 +8,11 @@ sections:
   path: content/_index.md
   label: Startseite
 - type: document
-  path: content/über-uns-.md
+  path: content/über-uns.md
   label: Über uns
 - type: document
   path: content/aktuelles.md
   label: Aktuelles
-- type: heading
-  label: "- - -"
 - type: document
   path: content/beratung.md
   label: Beratung
@@ -24,8 +22,6 @@ sections:
 - type: document
   path: content/seminare.md
   label: Seminare
-- type: heading
-  label: "- - -"
 - type: document
   path: content/downloads.md
   label: Downloads
