@@ -33,11 +33,6 @@ sections:
 - type: document
   path: content/kontakt.md
   label: Kontakt
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 upload_dir: static
 public_path: ''
 front_matter_path: ''
