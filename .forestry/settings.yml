@@ -5,40 +5,38 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
+  path: content/_index.md
+  label: Startseite
+- type: document
   path: content/über-uns-.md
   label: Über uns
-  match: "**/*"
-- type: document
-  path: content/seminare.md
-  label: Seminare
-  match: "**/*"
-- type: document
-  path: content/partner.md
-  label: Partner
-  match: "**/*"
-- type: document
-  path: content/kontakt.md
-  label: Kontakt
-  match: "**/*"
-- type: document
-  path: content/erfa.md
-  label: Erfa
-  match: "**/*"
-- type: document
-  path: content/downloads.md
-  label: Downloads
-  match: "**/*"
-- type: document
-  path: content/beratung.md
-  label: Beratung
-  match: "**/*"
 - type: document
   path: content/aktuelles.md
   label: Aktuelles
-  match: "**/*"
+- type: heading
+  label: "- - -"
 - type: document
-  path: content/_index.md
-  label: Startseite
+  path: content/beratung.md
+  label: Beratung
+- type: document
+  path: content/erfa.md
+  label: Erfa
+- type: document
+  path: content/seminare.md
+  label: Seminare
+- type: heading
+  label: "- - -"
+- type: document
+  path: content/downloads.md
+  label: Downloads
+- type: heading
+  label: "- - -"
+- type: document
+  path: content/partner.md
+  label: Partner
+- type: document
+  path: content/kontakt.md
+  label: Kontakt
 - type: directory
   path: content
   label: Pages
