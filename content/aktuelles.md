@@ -1,5 +1,4 @@
 +++
-draft = true
 title = "Aktuelles"
 [menu.mainmenu]
 weight = 3
