@@ -39,8 +39,6 @@ sections:
   label: Downloads
   templates:
   - downloads
-- type: heading
-  label: "- - -"
 - type: document
   path: content/partner.md
   label: Partner
