@@ -1,5 +1,4 @@
 +++
-draft = true
 title = "Partner"
 [menu.mainmenu]
 weight = 9

@@ -6,6 +6,7 @@ fields:
   name: title
   label: title
 pages:
+- content/_index.md
 - content/aktuelles.md
 - content/beratung.md
 - content/erfa.md

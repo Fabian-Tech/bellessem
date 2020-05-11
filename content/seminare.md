@@ -1,5 +1,4 @@
 +++
-draft = true
 title = "Seminare"
 [menu.mainmenu]
 weight = 6

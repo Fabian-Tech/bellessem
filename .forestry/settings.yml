@@ -11,6 +11,35 @@ sections:
   match: "*"
   templates: 
   - standard
+- type: document
+  path: content/_index.md
+  label: Startseite
+- type: document
+  path: content/über-uns.md
+  label: Über uns
+- type: document
+  path: content/aktuelles.md
+  label: Aktuelles
+- type: document
+  path: content/beratung.md
+  label: Beratung
+- type: document
+  path: content/erfa.md
+  label: Erfa
+- type: document
+  path: content/seminare.md
+  label: Seminare
+- type: document
+  path: content/downloads.md
+  label: Downloads
+- type: heading
+  label: "- - -"
+- type: document
+  path: content/partner.md
+  label: Partner
+- type: document
+  path: content/kontakt.md
+  label: Kontakt
 upload_dir: static
 public_path: ''
 front_matter_path: ''
