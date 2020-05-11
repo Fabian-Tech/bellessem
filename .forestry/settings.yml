@@ -4,16 +4,11 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-  templates: 
-  - standard
 - type: document
   path: content/_index.md
   label: Startseite
+  templates: 
+  - standard
 - type: document
   path: content/über-uns.md
   label: Über uns
