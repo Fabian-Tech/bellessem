@@ -6,7 +6,7 @@ weight = 9
 title = "Bellessem Unternehmensberatung - Partner"
 
 +++
-## Boris Breidenstein, KMU Mittelstandsberatung
+### Boris Breidenstein, KMU Mittelstandsberatung
 
 Schwerpunkt: Sanierung und Nachfolge
 
@@ -14,10 +14,10 @@ Schwerpunkt: Sanierung und Nachfolge
 
 www.mittelstandsberatung.de
 
-## Sowatech Softwaretechnik
+### Sowatech Softwaretechnik
 
 bietet Softwarelösungen für Windows- und Internet. mehr...
 
-## bei Bedarf Steuerberater Heiko Kühn 02661 / 94 91 05 www.kuehnberatung.de
+### bei Bedarf Steuerberater Heiko Kühn 02661 / 94 91 05 www.kuehnberatung.de
 
-## und andere Spezialisten
+### und andere Spezialisten

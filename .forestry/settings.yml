@@ -7,49 +7,49 @@ sections:
 - type: document
   path: content/_index.md
   label: Startseite
-  templates: 
+  templates:
   - standard
 - type: document
   path: content/über-uns.md
   label: Über uns
-  templates: 
+  templates:
   - standard
 - type: document
   path: content/aktuelles.md
   label: Aktuelles
-  templates: 
+  templates:
   - standard
 - type: document
   path: content/beratung.md
   label: Beratung
-  templates: 
+  templates:
   - standard
 - type: document
   path: content/erfa.md
   label: Erfa
-  templates: 
+  templates:
   - standard
 - type: document
   path: content/seminare.md
   label: Seminare
-  templates: 
+  templates:
   - standard
 - type: document
   path: content/downloads.md
   label: Downloads
-  templates: 
+  templates:
   - downloads
 - type: heading
   label: "- - -"
 - type: document
   path: content/partner.md
   label: Partner
-  templates: 
+  templates:
   - standard
 - type: document
   path: content/kontakt.md
   label: Kontakt
-  templates: 
+  templates:
   - standard
 upload_dir: static
 public_path: ''
