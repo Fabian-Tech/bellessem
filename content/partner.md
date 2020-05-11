@@ -8,8 +8,7 @@ title = "Bellessem Unternehmensberatung - Partner"
 +++
 ### Boris Breidenstein, KMU Mittelstandsberatung
 
-Schwerpunkt: Sanierung und Nachfolge
-
+Schwerpunkt: Sanierung und Nachfolge  
 02662 / 969 85 02
 
 www.mittelstandsberatung.de
