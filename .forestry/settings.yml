@@ -5,7 +5,7 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
-  path: customer_readme.md
+  path: content/customer_readme.md
   label: Informationen
 - type: heading
   label: Seiteninhalt
