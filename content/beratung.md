@@ -1,5 +1,4 @@
 +++
-draft = true
 title = "Beratung"
 [menu.mainmenu]
 weight = 4
