@@ -1,5 +1,4 @@
 +++
-draft = true
 title = "Über Uns"
 [menu.mainmenu]
 name = "UeberUns"
