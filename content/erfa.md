@@ -1,5 +1,4 @@
 +++
-draft = true
 title = "Erfa"
 [menu.mainmenu]
 weight = 5
