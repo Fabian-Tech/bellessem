@@ -6,8 +6,6 @@ weight = 10
 title = "Bellessem Unternehmensberatung - Kontakt"
 
 +++
-**Kontakt**
-
 **Bellessem**  
 Reinhard Bellessem  
 Leipzigerstr. 16  
