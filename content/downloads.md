@@ -13,12 +13,6 @@ lastUpdated = "05.04.2019"
 owner = ""
 [[downloads]]
 category = ""
-description = "kaufen, leasen oder mieten"
-file = "/aschermittwoch_otto.jpg"
-lastUpdated = "05.04.2019"
-owner = ""
-[[downloads]]
-category = ""
 description = "Finanzplan dynamisch"
 file = "/Finanzplan dynamisch  Vorlage.xls"
 lastUpdated = "18.04.2012"
